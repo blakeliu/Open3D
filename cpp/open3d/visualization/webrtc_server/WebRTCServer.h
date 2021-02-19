@@ -36,7 +36,7 @@ namespace webrtc_server {
 
 class WebRTCServer {
 public:
-    WebRTCServer(const std::string& http_address = "localhost:8888",
+    WebRTCServer(const std::string& http_address = "192.168.0.122:8888",
                  const std::string& web_root =
                          "/home/yixing/repo/Open3D/cpp/open3d/visualization/"
                          "webrtc_server/html");
